@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5A9AB218587ED600C655A0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5A9AB118587ED600C655A0 /* Main_iPhone.storyboard */; };
 		1DE7DF171855F399008FE6C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE7DF161855F399008FE6C4 /* Foundation.framework */; };
 		1DE7DF191855F399008FE6C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE7DF181855F399008FE6C4 /* CoreGraphics.framework */; };
 		1DE7DF1B1855F399008FE6C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DE7DF1A1855F399008FE6C4 /* UIKit.framework */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D5A9AB118587ED600C655A0 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
 		1DE7DF131855F399008FE6C4 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE7DF161855F399008FE6C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DE7DF181855F399008FE6C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -176,6 +178,7 @@
 				1DE7DF311855F399008FE6C4 /* Images.xcassets */,
 				1DE7DF1D1855F399008FE6C4 /* Supporting Files */,
 				1DE7DF7D1855F6D2008FE6C4 /* ViewController.xib */,
+				1D5A9AB118587ED600C655A0 /* Main_iPhone.storyboard */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				1DE7DF7C1855F5A4008FE6C4 /* CustomNavController.xib in Resources */,
 				1DE7DF321855F399008FE6C4 /* Images.xcassets in Resources */,
 				1DE7DF211855F399008FE6C4 /* InfoPlist.strings in Resources */,
+				1D5A9AB218587ED600C655A0 /* Main_iPhone.storyboard in Resources */,
 				1DE7DF781855F46B008FE6C4 /* LeftMenuController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
