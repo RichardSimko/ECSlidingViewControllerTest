@@ -22,7 +22,6 @@
 		1DE7DF431855F399008FE6C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7DF411855F399008FE6C4 /* InfoPlist.strings */; };
 		1DE7DF451855F399008FE6C4 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF441855F399008FE6C4 /* testTests.m */; };
 		1DE7DF501855F3BC008FE6C4 /* SlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF4F1855F3BC008FE6C4 /* SlidingViewController.m */; };
-		1DE7DF531855F3EC008FE6C4 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF521855F3EC008FE6C4 /* CustomWindow.m */; };
 		1DE7DF681855F424008FE6C4 /* ECPercentDrivenInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF561855F424008FE6C4 /* ECPercentDrivenInteractiveTransition.m */; };
 		1DE7DF691855F424008FE6C4 /* ECSlidingAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF581855F424008FE6C4 /* ECSlidingAnimationController.m */; };
 		1DE7DF6A1855F424008FE6C4 /* ECSlidingInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF5B1855F424008FE6C4 /* ECSlidingInteractiveTransition.m */; };
@@ -31,7 +30,6 @@
 		1DE7DF6E1855F424008FE6C4 /* UIViewController+ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF631855F424008FE6C4 /* UIViewController+ECSlidingViewController.m */; };
 		1DE7DF6F1855F424008FE6C4 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF651855F424008FE6C4 /* ECSlidingViewController.m */; };
 		1DE7DF701855F424008FE6C4 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF671855F424008FE6C4 /* UIImage+ImageWithUIView.m */; };
-		1DE7DF731855F443008FE6C4 /* CustomNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF721855F443008FE6C4 /* CustomNavController.m */; };
 		1DE7DF771855F46B008FE6C4 /* LeftMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7DF751855F46B008FE6C4 /* LeftMenuController.m */; };
 		1DE7DF781855F46B008FE6C4 /* LeftMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7DF761855F46B008FE6C4 /* LeftMenuController.xib */; };
 		1DE7DF7A1855F591008FE6C4 /* SlidingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DE7DF791855F591008FE6C4 /* SlidingViewController.xib */; };
@@ -71,8 +69,6 @@
 		1DE7DF441855F399008FE6C4 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
 		1DE7DF4E1855F3BC008FE6C4 /* SlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewController.h; sourceTree = "<group>"; };
 		1DE7DF4F1855F3BC008FE6C4 /* SlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingViewController.m; sourceTree = "<group>"; };
-		1DE7DF511855F3EC008FE6C4 /* CustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomWindow.h; sourceTree = "<group>"; };
-		1DE7DF521855F3EC008FE6C4 /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 		1DE7DF551855F424008FE6C4 /* ECPercentDrivenInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECPercentDrivenInteractiveTransition.h; sourceTree = "<group>"; };
 		1DE7DF561855F424008FE6C4 /* ECPercentDrivenInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECPercentDrivenInteractiveTransition.m; sourceTree = "<group>"; };
 		1DE7DF571855F424008FE6C4 /* ECSlidingAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingAnimationController.h; sourceTree = "<group>"; };
@@ -92,8 +88,6 @@
 		1DE7DF651855F424008FE6C4 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
 		1DE7DF661855F424008FE6C4 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
 		1DE7DF671855F424008FE6C4 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
-		1DE7DF711855F443008FE6C4 /* CustomNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavController.h; sourceTree = "<group>"; };
-		1DE7DF721855F443008FE6C4 /* CustomNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavController.m; sourceTree = "<group>"; };
 		1DE7DF741855F46B008FE6C4 /* LeftMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuController.h; sourceTree = "<group>"; };
 		1DE7DF751855F46B008FE6C4 /* LeftMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuController.m; sourceTree = "<group>"; };
 		1DE7DF761855F46B008FE6C4 /* LeftMenuController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftMenuController.xib; sourceTree = "<group>"; };
@@ -166,10 +160,6 @@
 				1DE7DF261855F399008FE6C4 /* AppDelegate.m */,
 				1DE7DF2E1855F399008FE6C4 /* ViewController.h */,
 				1DE7DF2F1855F399008FE6C4 /* ViewController.m */,
-				1DE7DF511855F3EC008FE6C4 /* CustomWindow.h */,
-				1DE7DF521855F3EC008FE6C4 /* CustomWindow.m */,
-				1DE7DF711855F443008FE6C4 /* CustomNavController.h */,
-				1DE7DF721855F443008FE6C4 /* CustomNavController.m */,
 				1DE7DF741855F46B008FE6C4 /* LeftMenuController.h */,
 				1DE7DF751855F46B008FE6C4 /* LeftMenuController.m */,
 				1DE7DF761855F46B008FE6C4 /* LeftMenuController.xib */,
@@ -340,7 +330,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE7DF501855F3BC008FE6C4 /* SlidingViewController.m in Sources */,
-				1DE7DF731855F443008FE6C4 /* CustomNavController.m in Sources */,
 				1DE7DF301855F399008FE6C4 /* ViewController.m in Sources */,
 				1DE7DF6B1855F424008FE6C4 /* ECSlidingSegue.m in Sources */,
 				1DE7DF6F1855F424008FE6C4 /* ECSlidingViewController.m in Sources */,
@@ -350,7 +339,6 @@
 				1DE7DF6A1855F424008FE6C4 /* ECSlidingInteractiveTransition.m in Sources */,
 				1DE7DF691855F424008FE6C4 /* ECSlidingAnimationController.m in Sources */,
 				1DE7DF771855F46B008FE6C4 /* LeftMenuController.m in Sources */,
-				1DE7DF531855F3EC008FE6C4 /* CustomWindow.m in Sources */,
 				1DE7DF681855F424008FE6C4 /* ECPercentDrivenInteractiveTransition.m in Sources */,
 				1DE7DF6E1855F424008FE6C4 /* UIViewController+ECSlidingViewController.m in Sources */,
 				1DE7DF6D1855F424008FE6C4 /* UIImage+ImageWithUIView.m in Sources */,

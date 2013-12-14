@@ -8,14 +8,13 @@
 
 #import "AppDelegate.h"
 #import "SlidingViewController.h"
-#import "CustomWindow.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     SlidingViewController *slidingView = [[SlidingViewController alloc] initWithNibName:NSStringFromClass([SlidingViewController class]) bundle:nil];
-    self.window = [[CustomWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = slidingView;
 
     return YES;

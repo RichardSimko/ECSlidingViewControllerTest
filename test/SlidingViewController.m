@@ -7,7 +7,7 @@
 //
 
 #import "SlidingViewController.h"
-#import "CustomNavController.h"
+#import "ViewController.h"
 
 @implementation SlidingViewController
 
@@ -15,7 +15,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        CustomNavController *nav = [[CustomNavController alloc] initWithNibName:NSStringFromClass([CustomNavController class]) bundle:nil];
+        UINavigationController *nav = [[UINavigationController alloc] initWithNibName:@"CustomNavController" bundle:nil];
+        [nav pushViewController:[[ViewController alloc] initWithNibName:NSStringFromClass([ViewController class]) bundle:nil] animated:NO];
         self.topViewController = nav;
         self.topViewAnchoredGesture = (ECSlidingViewControllerAnchoredGesturePanning | ECSlidingViewControllerAnchoredGestureTapping);
     }
@@ -29,21 +30,11 @@
 }
 
 -(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch{
-        //I know it's a bad solution but it's the best there is.
-#if __IPHONE_OS_VERSION_MAX_ALLOWED > 70000
-#error Test this code before shipping
-#endif
-    if ([touch.view.superview.superview isKindOfClass:[UISwitch class]] || [touch.view isKindOfClass:[UISlider class]]){//Prevents activation on controls
-        return NO;
-    }
     if ([touch.view.superview.superview isKindOfClass:[UITableViewCell class]]) {
         return ((UITableViewCell *) touch.view.superview.superview).editingStyle == UITableViewCellEditingStyleNone;
     }
     UIView *touchView = touch.view;
     while (touchView.superview != nil) {
-//        if ([touchView conformsToProtocol:@protocol(URNoSideMenu)]) {
-//            return NO;
-//        }
         touchView = touchView.superview;
     }
     return YES;
@@ -52,8 +43,9 @@
 -(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer
 {
     //Prevents activation when scrolling in a tableview
-    if([otherGestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]] && [otherGestureRecognizer.view isKindOfClass:[UITableView class]])
+    if([otherGestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]] && [otherGestureRecognizer.view isKindOfClass:[UITableView class]] && [gestureRecognizer isKindOfClass:[UIPanGestureRecognizer class]]){
         return NO;
+    }
     return YES;
 }
 
